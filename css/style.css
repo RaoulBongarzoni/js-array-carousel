@@ -43,7 +43,7 @@ button{
     right: 50%;
     transform: translate(75%, -30%);
 }
-img{
+.slide{
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -52,15 +52,17 @@ img{
 
 }
 
+
+
 .active{
     display: block;
 }
 
 
 
-.posizione{
-    height: 50%;
-    width: 60%;
+#posizione{
+    height: 80%;
+    width: 80%;
     position: absolute;
     top: 50%;
     right: 50%;
